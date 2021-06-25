@@ -22,6 +22,8 @@ echo_green "\nInstall/Update RW_LEGACY Firmware (Legacy BIOS)"
 #determine proper file
 if [ "$device" = "link" ]; then
     rwlegacy_file=$seabios_link
+elif [ "$isSkl" = true ]; then
+    rwlegacy_file=$seabios_bobba
 elif [[ "$isHswBox" = true || "$isBdwBox" = true ]]; then
     rwlegacy_file=$seabios_hswbdw_box
 elif [[ "$isHswBook" = true || "$isBdwBook" = true ]]; then
