@@ -3,6 +3,10 @@
 		"url": "https://www.mrchromebox.tech/files/firmware/full_rom/coreboot_tiano-butterfly-mrchromebox_20210423.rom",
 		"sha1": "07a85fc1d297a1ed52a59725d9863291308ba3fc"
 	},
+	"bobba":{
+		"url": "https://www.mrchromebox.tech/files/firmware/full_rom/coreboot_tiano-swanky-mrchromebox_20210423.rom",
+		"sha1": "0d339667bd8d4b7ae22dad1b16557874905d2727"
+	},	
 	"link": {
 		"url": "https://www.mrchromebox.tech/files/firmware/full_rom/coreboot_tiano-link-mrchromebox_20210423.rom",
 		"sha1": "c53ef6b85de6edd6f12c19cefe37d875fda79069"
